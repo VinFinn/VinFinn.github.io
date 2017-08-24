@@ -1,45 +1,131 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #00FF00;
-};
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
+-d: #000;
+            color: #fff;
+            bottom: 90px;
+            bottom: 170px;
+            font-size: 2em;
+            border: 1px solid transparent;
+            position: absolute;
+            outline: none;
+            z-index: 1000;
+            margin-left: -90px;
+            font-family: 'Amatic SC', cursive;
+            cursor: pointer;
+        }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
+        #next {
+            width: 180px;
+            height: 50px;
+            background: #000;
+            color: #fff;
+            bottom: 110px;
+            font-size: 2em;
+            outline: none;
+            border: 1px solid transparent;
+            position: absolute;
+            z-index: 1000;
+            margin-left: -90px;
+            font-family: 'Amatic SC', cursive;
+            cursor: pointer;
+        }
 
-ul.posts li {
-    list-style: none;
-}
- 
+        #mybut {
+            color: #FFF;
+            text-decoration: none;
+            width: 30%;
+            margin: auto;
+            height: 50px;
+            -webkit-gradient: linear-gradient(45deg, pink, skyblue);
+            color: #fff;
+            background: transparent;
+            border: 2px solid #fff;
+            margin: auto;
+            font-size: 2em;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-top: 1px;
+            text-decoration: none;
+            font-family: 'Amatic SC', cursive;
+            outline: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .buttons {
+            color: #FFF;
+            text-decoration: none;
+            width: 30%;
+            margin: auto;
+            height: 50px;
+            -webkit-gradient: linear-gradient(45deg, pink, skyblue);
+            color: #fff;
+            background: transparent;
+            border: 2px solid #fff;
+            margin: auto;
+            font-size: 2em;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-top: 1px;
+            text-decoration: none;
+            font-family: 'Amatic SC', cursive;
+            outline: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /*//=============================================================
+        //               LOADING EFFECT
+        //=============================================================*/
+
+
+        .loader {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 10000;
+            background: rgba(255,255,255,.9);
+        }
+
+        .flex {
+            width: 50%;
+            height: 50%;
+            margin: auto;
+            background: #6B9999;
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        #backstart {
+            color: #fff;
+            text-align: center;
+            font-size: 5rem;
+            width: 180px;
+            margin: auto;
+            margin-top: 400px;
+            position: absolute;
+            z-index: 1000;
+            margin-left: -90px;
+            font-family: 'Amatic SC', cursive;
+        }
+
+        #hesber {
+            color: #fff;
+            text-align: center;
+            font-size: 2em;
+            width: 500px;
+            margin: auto;
+            z-index: 1000;
+        }
+
+        .hide {
+            display: none;
+        }
